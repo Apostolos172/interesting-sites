@@ -6,6 +6,8 @@ A website where you can save the sites which you want to access easily in groups
 <p>And the basic layout of the admin interface respectively: <a href="http://19172.byethost11.com/projects/interesting_sites/administrator/">19172.byethost11.com/projects/interesting_sites/administrator/</a></p>
 
 ## Some examples of the site' s functionality
+![Interesting-sites-review](https://github.com/Apostolos172/interesting-sites/blob/master/screenshots/Animation.gif?raw=true)
+
 ### Site
 ![Interesting-sites](https://github.com/Apostolos172/interesting-sites/blob/master/screenshots/Screenshot-Interesting-sites.png?raw=true)
 
