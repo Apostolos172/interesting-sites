@@ -8,7 +8,7 @@ $page_title = 'Logged Out!';
 include('./../html/header.html');
 
 // If no session variable exists, redirect the user:
-if (!isset($_SESSION['admin'])) {
+if (!isset($_SESSION['role'])) {
 
 	require_once('./../libraries/php/login_functions.inc.php');
 	$url = absolute_url('login.php');

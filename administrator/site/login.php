@@ -11,7 +11,7 @@ if (isset($_POST['submitted'])) {
 
 		// Set the session data:.
 		session_start();
-		$_SESSION['admin'] = $data['email'];
+		$_SESSION['role'] = $data['role'];
 
 		// Redirect:
 		$url = absolute_url();

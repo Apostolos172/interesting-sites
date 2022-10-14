@@ -95,3 +95,8 @@ main.central > p{
 	min-height: 100%;
 	min-height: 500px;
 }
+
+p#forbidden {
+	color: red;
+	text-align: center;
+}

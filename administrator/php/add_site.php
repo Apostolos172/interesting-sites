@@ -2,7 +2,7 @@
 // add_site.php
 
 session_start(); // Access the existing session. - Start the session.
-if (isset($_SESSION['admin'])) :
+if (isset($_SESSION['role']) and strcmp($_SESSION['role'], 'administrator') == 0) :
 
 	// Εδώ φαίνεται μια απλή φόρμα εισαγωγής νέας ιστοσελίδας στο ηλεκτρονικό σύστημα
 	// Φτάνεις εδώ από το μενού του περιβάλλοντος με την επιλογή Add site
@@ -99,10 +99,20 @@ if (isset($_SESSION['admin'])) :
 		</form>
 
 	</main>
-	<?php
-	require_once "./../html/footer.html";
-	?>
 <?php
+	require_once "./../html/footer.html";
+elseif (isset($_SESSION['role']) and strcmp($_SESSION['role'], 'administrator') != 0) :
+	require_once "./../html/header.html"; ?>
+	<main class="main">
+		<h2>Hello <?php echo $_SESSION['role']; ?></h2>
+		<p id="forbidden"> Δεν έχετε πρόσβαση στην σελίδα</p>
+		<?php
+		require_once "./../libraries/php/createElements.php";
+		manyEmptyPs();
+		?>
+	</main>
+<?php
+	require_once "./../html/footer.html";
 else :
 	$newURL = "./../site/login_page.php";
 	header('Location: ' . $newURL);
