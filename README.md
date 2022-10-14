@@ -2,8 +2,8 @@
 
 A website where you can save the sites which you want to access easily in groups. 
 
-You can see the site <b>live</b> in the following link: [19172.byethost11.com/projects/interesting_sites/index.php](http://19172.byethost11.com/projects/interesting_sites/index.php)
-And the basic layout of the admin interface respectively: [19172.byethost11.com/projects/interesting_sites/administrator/](http://19172.byethost11.com/projects/interesting_sites/administrator/)
+<p>You can see the site <b>live</b> in the following link: [19172.byethost11.com/projects/interesting_sites/index.php](http://19172.byethost11.com/projects/interesting_sites/index.php)</p>
+<p>And the basic layout of the admin interface respectively: [19172.byethost11.com/projects/interesting_sites/administrator/](http://19172.byethost11.com/projects/interesting_sites/administrator/)</p>
 
 ## Some examples of the site' s functionality
 ### Site
